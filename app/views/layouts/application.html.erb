@@ -9,9 +9,14 @@
   </head>
 
   <body>
+  	<%= render "shared/header" %>
+    <nav>
+    	<a href="/creatures">Home</a> | <a href="/creatures/new">Add a new Creature</a>
+    </nav>
+    <%= yield %>
+ 
   	<div class="container">
     <div class="row">
     <div class="col m6 offset-m3">
-    <%= yield %>
   </body>
 </html>

@@ -1,1 +1,11 @@
 @import "materialize";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$color-background: #998099;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $color-background;
+}
